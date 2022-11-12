@@ -9,15 +9,15 @@ const Navbar = () => {
  
  
     return (
-    <div  className='flex justif-between items-center h-24 text-white max-w-[1240px] px-4 mx-auto'>
+    <div  className='flex justify-between  items-center  h-24 text-white max-w-[1240px] px-4 mx-auto'>
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
 
-    <ul className=' hidden md:flex '>
+    <ul className=' hidden  md:flex '>
      <li className='p-4'>Home</li>
      <li className='p-4'>Company </li>
      <li className='p-4'>Resources </li>
      <li className="p-4">About </li>
-     <li className="p-4">Contact </li>
+     <li className='bg-[#00df9a] w-[200px] p-4 rounded-md font-medium my-4 mx-auto px-11 my-0 text-black'>Get Started </li>
 
 
     </ul>
